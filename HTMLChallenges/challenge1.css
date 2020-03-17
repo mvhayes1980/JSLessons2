@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: lightgreen;
+
+}
+
+p {
+    color: red;
+}
+
+.bordered {
+    border: 25px solid black;
+    border-radius: 25px;
+  background: grey;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
