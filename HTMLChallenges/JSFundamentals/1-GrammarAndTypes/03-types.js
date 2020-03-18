@@ -62,6 +62,7 @@ Set each variable to its respective type.
 console.log your whole address (with the space between variable).
 Collapse
 */
+
 const firstName = "Mike";
 let lastName = "Hayes";
 var houseNumber = 5406;
@@ -72,3 +73,26 @@ var state = "Indiana";
 var zipcode = 46208;    
 
 console.log(firstName + ` ` + lastName + ` ` + houseNumber + ` ` + aptNumber + ` ` + street + ` ` + city + ` ` + state + ` ` + zipcode);
+
+let firstObject = {
+    integer: 50,
+    firstString: 'hello world',
+    isRemote: true
+};
+
+console.log(firstObject);
+console.log(typeof firstObject);
+
+let firstArray = ["Spanish", "English", "French", "Chinese"]
+
+let alternateForm = {
+    0: "Spanish",
+    1: "English",
+    2: "French",
+    3: "Chinese"
+};
+
+console.log(firstString[0]);
+
+//String interpolation $ {}
+console.log(`${firstName} ${lastName}, ${houseNumber} ${street} ${aptNumber} ${city} ${state} ${zipcode}`);
